@@ -8,7 +8,7 @@ import { RootLayout } from "./RootLayout.tsx";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/production-control-dashboard">
       {/* Global providers go outside of Routes */}
       <TooltipProvider>
         <Routes>
